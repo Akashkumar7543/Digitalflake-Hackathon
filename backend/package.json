@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Digital-Flake-Hackerthon-React.js-Node.js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akashkumar7543/Digitalflake-Hackathon.git"
+  },
+  "author": "Akash Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akashkumar7543/Digitalflake-Hackathon/issues"
+  },
+  "homepage": "https://github.com/Akashkumar7543/Digitalflake-Hackathon#readme"
+}
