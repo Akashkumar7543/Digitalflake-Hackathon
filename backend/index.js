@@ -1,14 +1,24 @@
 import express from "express";
 import dotenv from "dotenv";
 import connectDB from "./config/db.js";
-import e from "express";
+import cors from "cors";
+import authRouter from "./router/authRouter.js";
+
+
 dotenv.config();
+connectDB(); //DB
 
 const app = express();
+app.use(cors({
+    origin: "http://localhost:3000", 
+    credentials: true
+}));
+
+
 
 app.use(express.json()); //gobal middleware
 
-connectDB(); //DB
+app.use("/api/auth", authRouter);
 
 const port = process.env.PORT || 6000
 app.listen(port, () => {
