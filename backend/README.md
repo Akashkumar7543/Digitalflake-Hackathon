@@ -78,7 +78,7 @@ npm start
 
   <h2 style="color:#f472b6;">🌐 Server URL</h2>
   <pre style="background:#020617; padding:15px; border-radius:8px;">
-http://localhost:5000
+http://localhost:8000
   </pre>
 
   <h2 style="color:#f472b6;">🔌 API Example</h2>
