@@ -1,90 +1,36 @@
-Backend – Digitalflake Hackathon
+<div style="font-family: Arial, sans-serif; background:#0f172a; color:#e5e7eb; padding:30px; border-radius:12px;">
 
-This is the backend server for the Digitalflake Hackathon project.
+  <h1 style="color:#38bdf8; text-align:center;">
+    🚀 Digitalflake Hackathon – Backend
+  </h1>
 
-Requirements
+  <p style="text-align:center; font-size:16px;">
+    Backend server for the <b>Digitalflake Hackathon Project</b> built with 
+    <span style="color:#22c55e;">Node.js</span>, 
+    <span style="color:#facc15;">MongoDB</span> and 
+    <span style="color:#ec4899;">Cloudinary</span>.
+  </p>
 
-Make sure you have:
+  <hr style="border:1px solid #334155; margin:20px 0;" />
 
-Node.js installed
+  <h2 style="color:#f472b6;">📋 Requirements</h2>
+  <ul>
+    <li>✅ Node.js</li>
+    <li>✅ npm</li>
+    <li>✅ MongoDB (Local / Cloud)</li>
+    <li>✅ Cloudinary Account</li>
+  </ul>
 
-npm installed
-
-MongoDB (local or cloud)
-
-Cloudinary account (for image upload)
-
-Check:
-
+  <pre style="background:#020617; padding:15px; border-radius:8px; color:#38bdf8;">
 node -v
 npm -v
+  </pre>
 
-Setup Steps
-1. Go to backend folder
+  <h2 style="color:#f472b6;">⚙️ Setup</h2>
+
+  <h3 style="color:#22c55e;">1. Go to backend folder</h3>
+  <pre style="background:#020617; padding:15px; border-radius:8px;">
 cd backend
+  </pre>
 
-2. Install dependencies
-npm install
-
-Environment File
-
-Create a .env file inside backend folder:
-
-PORT=8000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-
-Cloudinary Setup
-
-Go to https://cloudinary.com
-
-Create an account
-
-Open Dashboard
-
-Copy:
-
-Cloud Name
-
-API Key
-
-API Secret
-
-Paste them into .env file
-
-Cloudinary is used to store images (category, subcategory, product).
-
-Run Backend Server
-Development mode
-npm run dev
-
-OR normal start
-npm start
-
-Server Running At
-http://localhost:5000
-
-API Example
-
-Login API:
-
-POST /auth/login
-
-Notes
-
-Backend uses Express
-
-Database is MongoDB
-
-Authentication uses JWT
-
-Images are uploaded using Cloudinary
-
-Author
-
-Akash Kumar
-Digitalflake Hackathon
+  <h3 style="color:#22c55e;">2. Install de
