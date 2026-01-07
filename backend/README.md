@@ -20,6 +20,8 @@ node -v
 npm -v
 
 Folder Structure
+
+
 backend/
 ├── config/
 ├── controller/
@@ -30,6 +32,7 @@ backend/
 ├── index.js
 ├── package.json
 └── README.md
+
 
 Setup Steps
 1. Go to backend folder
