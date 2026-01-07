@@ -19,21 +19,6 @@ Check:
 node -v
 npm -v
 
-Folder Structure
-
-
-backend/
-├── config/
-├── controller/
-├── middleware/
-├── model/
-├── router/
-├── .env
-├── index.js
-├── package.json
-└── README.md
-
-
 Setup Steps
 1. Go to backend folder
 cd backend
